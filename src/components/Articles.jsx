@@ -11,7 +11,7 @@ const Article = (props) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('http://localhost:3001/articles')
+        fetch('https://newsapi.org/v2/top-headlines?country=id&category=health&apiKey=4ccb5c14cc0446dbb4bf2f1e1d6d62c4')
             .then(res => res.json())
             .then(data => {
                 console.log(data);

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { ArrowLeftShort, BellFill } from "react-bootstrap-icons";
 import team from "../assets/team.jpg"
 
@@ -20,12 +21,12 @@ const Header = (props) => {
                 <ArrowLeftShort className="text-2xl text-tertiary" />
             </div>
             <h1 className="text-lg font-bold text-tertiary flex-auto pointer-events-none">{brand}</h1>
-            <a href="notification" className="mr-3 p-1">
+            <Link to="notification" className="mr-3 p-1">
                 <BellFill />
-            </a>
-            <a href="profile" id="pp" className="w-8 h-8 rounded-full border border-primary overflow-hidden">
+            </Link>
+            <Link to="profile" id="pp" className="w-8 h-8 rounded-full border border-primary overflow-hidden">
                 <img src={profile} alt="profile" loading="eager" className="w-full h-full object-cover" />
-            </a>
+            </Link>
         </div>
     )
 }
