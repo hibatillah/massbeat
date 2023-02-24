@@ -12,7 +12,7 @@ function App() {
         <Header />
         <div className="w-full h-full pb-20">
           <Routes>
-            <Route path="massbeat" element={<Home />} />
+            <Route path="massbeat/" element={<Home />} />
             <Route path="articles" element={<Articles />} />
             <Route path="articles/:id" element={<Article />} />
             <Route path="program" element={<Programs />} />
