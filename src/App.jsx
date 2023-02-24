@@ -8,11 +8,25 @@ function App() {
   
   return (
     <BrowserRouter>
-      <div className="w-full min-h-screen h-full pb-4 bg-white">
+      <div className="hidden w-full min-h-screen sm:grid sm:place-items-center">
+        <div className="flex flex-col justify-between items-center gap-4 h-full font-semibold">
+          <span className="text-primary">MassBeat - workout and trainer consultation app</span>
+          <div className="space-y-2 text-tertiary">
+            <h1 className="text-4xl font-bold">
+              We are in development of MassBeat for desktop screen
+            </h1>
+            <h2 className="text-2xl">
+              You can try massbeat on the mobile screen only for now
+            </h2>
+          </div>
+          <span className="text-primary">MassBeat Developer - Hibatillah</span>
+        </div>
+      </div>
+      <div className="w-full min-h-screen h-full pb-4 bg-white sm:hidden">
         <Header />
         <div className="w-full h-full pb-20">
           <Routes>
-            <Route path="massbeat/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="articles" element={<Articles />} />
             <Route path="articles/:id" element={<Article />} />
             <Route path="program" element={<Programs />} />
