@@ -1,0 +1,121 @@
+{
+    "articles": [
+        {
+            "id": 1, 
+            "title": "Mengatur pola hidup sehat", 
+            "source": "Detik.com", 
+            "date": "12 Desember 2022", 
+            "image": "https://source.unsplash.com/random/?health"
+        },
+        {
+            "id": 2, 
+            "title": "Berapa kebutuhan cairan tubuh?", 
+            "source": "Detik.com", 
+            "date": "12 Desember 2022", 
+            "image": "https://source.unsplash.com/random/drink?"
+        },
+        {
+            "id": 3, 
+            "title": "Mengenal BMI dan cara menghitungnya", 
+            "source": "Detik.com", 
+            "date": "12 Desember 2022", 
+            "image": "https://source.unsplash.com/random/mass?"
+        },
+        {
+            "id": 4, 
+            "title": "Olahraga sebagai cara mengatur pola hidup yang sehat", 
+            "source": "Detik.com", 
+            "date": "12 Desember 2022", 
+            "image": "https://source.unsplash.com/random/?sport"
+        },
+        {
+            "id": 5, 
+            "title": "Mengatur pola hidup sehat", 
+            "source": "Detik.com", 
+            "date": "12 Desember 2022", 
+            "image": "https://source.unsplash.com/random/?life"
+        },
+        {
+            "id": 6, 
+            "title": "Mengatur pola hidup sehat", 
+            "source": "Detik.com", 
+            "date": "12 Desember 2022", 
+            "image": "https://source.unsplash.com/random/?training"
+        },
+        {
+            "id": 7, 
+            "title": "Mengatur pola hidup sehat", 
+            "source": "Detik.com", 
+            "date": "12 Desember 2022", 
+            "image": "https://source.unsplash.com/random/?workout"
+        }
+    ],
+    "programs": [
+        {
+            "id": 1, 
+            "title": "Latihan", 
+            "img": "https://source.unsplash.com/random/?trainer"
+        },
+        {
+            "id": 2, 
+            "title": "Workout", 
+            "img": "https://source.unsplash.com/random/?workout"
+        },
+        {
+            "id": 3, 
+            "title": "Latihan", 
+            "img": "https://source.unsplash.com/random/?trainer"
+        },
+        {
+            "id": 4, 
+            "title": "Workout", 
+            "img": "https://source.unsplash.com/random/?workout"
+        }
+    ],
+    "trainers": [
+        {
+            "id": 1, 
+            "img": "https://source.unsplash.com/random/?people",
+            "name": "John Doe",
+            "address": "Jl. Sudirman No. 1"
+        },
+        {
+            "id": 2, 
+            "img": "https://source.unsplash.com/random/?trainer"
+        },
+        {
+            "id": 3, 
+            "img": "https://source.unsplash.com/random/?people"
+        },
+        {
+            "id": 4, 
+            "img": "https://source.unsplash.com/random/?trainer"
+        },
+        {
+            "id": 5, 
+            "img": "https://source.unsplash.com/random/?team"
+        }
+    ],
+    "foods": [
+        {
+            "id": 1, 
+            "title": "Food", 
+            "img": "https://source.unsplash.com/random/?food"
+        },
+        {
+            "id": 2, 
+            "title": "Food", 
+            "img": "https://source.unsplash.com/random/?drink"
+        },
+        {
+            "id": 3, 
+            "title": "Food", 
+            "img": "https://source.unsplash.com/random/?drink"
+        },
+        {
+            "id": 4, 
+            "title": "Food", 
+            "img": "https://source.unsplash.com/random/?food"
+        }
+    ]
+}
