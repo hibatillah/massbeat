@@ -1,5 +1,5 @@
 # MassBeat
-## A workout and trainer consultation app
+## a workout app and trainer consultation
 
 refers to the transitional period of the covid 19 pandemic, where people realized the importance of living a healthy life so they started doing various sports activities and nutritious food to achieve a healthy lifestyle. 
 
