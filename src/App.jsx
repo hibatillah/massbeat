@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header, Navigation, Articles, Programs, Profile, Home, Record, Chat, Notification, NotFound, Article } from "./components";
 import * as Icon from 'react-bootstrap-icons';
+import logo from "./assets/logo.png";
 
 function App() {
   const [page, setPage] = useState("Home");
@@ -9,17 +10,18 @@ function App() {
   return (
     <BrowserRouter>
       <div className="hidden w-full min-h-screen sm:grid sm:place-items-center">
-        <div className="flex flex-col justify-between items-center gap-4 h-full font-semibold">
-          <span className="text-primary">MassBeat - workout and trainer consultation app</span>
-          <div className="space-y-2 text-tertiary">
-            <h1 className="text-4xl font-bold">
+        <div className="flex flex-col justify-between items-center gap-4 h-full font-semibold py-6">
+          <span className="text-primary text-lg">MassBeat - workout and trainer consultation app</span>
+          <div className="space-y-2 text-tertiary text-center">
+            <img src={logo} alt="logo" className="w-40 h-auto" />
+            <h1 className="text-3xl font-bold">
               We are in development of MassBeat for desktop screen
             </h1>
             <h2 className="text-2xl">
-              You can try massbeat on the mobile screen only for now
+              You can try massbeat on the <span className="text-primary">mobile screen</span> for now
             </h2>
           </div>
-          <span className="text-primary">MassBeat Developer - Hibatillah</span>
+          <span className="text-primary text-lg">MassBeat Developer - Hibatillah</span>
         </div>
       </div>
       <div className="w-full min-h-screen h-full pb-4 bg-white sm:hidden">
