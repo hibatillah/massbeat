@@ -49,8 +49,8 @@ const Program = () => {
             <div  className="pl-2">
                 <PageTitle title="Program" />
             </div>
-            {loading && <Load />}
-            {error && <NT />}
+            {/* {loading && <Load />}
+            {error && <NT />} */}
             <div className="flex flex-col z-0">
                 <div className="trainer">
                     <SectionTitle title="Trainer" />
