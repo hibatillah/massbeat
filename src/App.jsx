@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       <div className="hidden w-full min-h-screen sm:grid sm:place-items-center">
         <div className="flex flex-col justify-between items-center gap-4 h-full font-semibold py-6">
-          <span className="text-primary text-lg">MassBeat - workout and trainer consultation app</span>
+          <span className="text-primary text-lg font-medium">MassBeat - workout and trainer consultation app</span>
           <div className="flex flex-col items-center justify-center gap-1 text-tertiary text-center">
-            <img src={logo} alt="logo" className="w-60 h-auto mb-2" />
+            <img src={logo} alt="logo" className="w-60 h-auto mb-2 mx-auto" />
             <h1 className="text-3xl font-semibold">
               We are in development of MassBeat for desktop screen
             </h1>
@@ -21,7 +21,7 @@ function App() {
               You can try massbeat on the <span className="text-primary">mobile screen</span> for now
             </h2>
           </div>
-          <span className="text-primary text-lg">MassBeat Developer - Hibatillah</span>
+          <span className="text-primary text-lg font-medium">MassBeat Developer - Hibatillah</span>
         </div>
       </div>
       <div className="w-full min-h-screen h-full pb-4 bg-white sm:hidden">
