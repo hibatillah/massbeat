@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/massbeat/static/css/main.3e561808.css",
-    "main.js": "/massbeat/static/js/main.67843cce.js",
+    "main.js": "/massbeat/static/js/main.0d5fe4ed.js",
     "static/media/team.jpg": "/massbeat/static/media/team.e675e91528a044349c33.jpg",
     "static/media/404.png": "/massbeat/static/media/404.210c577839a32e0065a0.png",
     "index.html": "/massbeat/index.html",
     "static/media/refresh.svg": "/massbeat/static/media/refresh.37ff5575acf5015cb4b64de996013517.svg",
     "main.3e561808.css.map": "/massbeat/static/css/main.3e561808.css.map",
-    "main.67843cce.js.map": "/massbeat/static/js/main.67843cce.js.map"
+    "main.0d5fe4ed.js.map": "/massbeat/static/js/main.0d5fe4ed.js.map"
   },
   "entrypoints": [
     "static/css/main.3e561808.css",
-    "static/js/main.67843cce.js"
+    "static/js/main.0d5fe4ed.js"
   ]
 }
