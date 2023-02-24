@@ -12,3 +12,5 @@ This project was built using the design thinking method by finding out the probl
 In the early stages, this project will be built in web form using the React JS framework and styling using Tailwind CSS.
 
 Click the following link to view the project https://hibatillah.github.io/massbeat/
+
+MassBeat Developer - Hibatillah

@@ -12,9 +12,9 @@ function App() {
       <div className="hidden w-full min-h-screen sm:grid sm:place-items-center">
         <div className="flex flex-col justify-between items-center gap-4 h-full font-semibold py-6">
           <span className="text-primary text-lg">MassBeat - workout and trainer consultation app</span>
-          <div className="space-y-2 text-tertiary text-center">
-            <img src={logo} alt="logo" className="w-40 h-auto" />
-            <h1 className="text-3xl font-bold">
+          <div className="flex flex-col items-center justify-center gap-1 text-tertiary text-center">
+            <img src={logo} alt="logo" className="w-60 h-auto mb-2" />
+            <h1 className="text-3xl font-semibold">
               We are in development of MassBeat for desktop screen
             </h1>
             <h2 className="text-2xl">
