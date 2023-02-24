@@ -5,27 +5,44 @@ import NT from "./NotFound";
 import Load from './Loading';
 
 const Program = () => {
-    const [trainers, setTrainers] = useState([]);
-    const [programs, setPrograms] = useState([]);
-    const [foods, setFoods] = useState([]);
     const [error, setError] = useState(false);
     const [loading, setLoading] = useState(true);
-    
-    const dataTrainers = fetch('http://localhost:3001/trainers').then(res => res.json())
-    const dataPrograms = fetch('http://localhost:3001/programs').then(res => res.json())
-    const dataFoods = fetch('http://localhost:3001/foods').then(res => res.json())
 
-    const allData = Promise.all([dataTrainers, dataPrograms, dataFoods]);
+    const [trainers, setTrainers] = useState([
+        {id: 1, title: "Latihan", img: "https://source.unsplash.com/random/?trainer"},
+        {id: 2, title: "Workout", img: "https://source.unsplash.com/random/?workout"},
+        {id: 3, title: "Latihan", img: "https://source.unsplash.com/random/?trainer"},
+        {id: 4, title: "Workout", img: "https://source.unsplash.com/random/?workout"}
+    ]);
+    const [programs, setPrograms] = useState([
+        {id: 1, img: "https://source.unsplash.com/random/?people"},
+        {id: 2, img: "https://source.unsplash.com/random/?trainer"},
+        {id: 3, img: "https://source.unsplash.com/random/?people"},
+        {id: 4, img: "https://source.unsplash.com/random/?trainer"},
+        {id: 5, img: "https://source.unsplash.com/random/?team"}
+    ]);
+    const [foods, setFoods] = useState([
+        {id: 1, title: "Food", img: "https://source.unsplash.com/random/?food"},
+        {id: 2, title: "Food", img: "https://source.unsplash.com/random/?drink"},
+        {id: 3, title: "Food", img: "https://source.unsplash.com/random/?drink"},
+        {id: 4, title: "Food", img: "https://source.unsplash.com/random/?food"}
+    ]);
+
+    // const dataTrainers = fetch('http://localhost:3001/trainers').then(res => res.json())
+    // const dataPrograms = fetch('http://localhost:3001/programs').then(res => res.json())
+    // const dataFoods = fetch('http://localhost:3001/foods').then(res => res.json())
+
+    // const allData = Promise.all([dataTrainers, dataPrograms, dataFoods]);
     
-    useEffect(() => {
-        allData.then(data => {
-            setTrainers(data[0]);
-            setPrograms(data[1]);
-            setFoods(data[2]);
-        })
-        .catch(err => setError(true))
-        .finally(() => setLoading(false))
-    },[])
+    // useEffect(() => {
+    //     allData.then(data => {
+    //         setTrainers(data[0]);
+    //         setPrograms(data[1]);
+    //         setFoods(data[2]);
+    //     })
+    //     .catch(err => setError(true))
+    //     .finally(() => setLoading(false))
+    // },[])
     
     return (
         <div className="program w-full overflow-hidden">
