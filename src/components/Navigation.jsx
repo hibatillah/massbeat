@@ -16,7 +16,7 @@ const Navigation = () => {
     
     return (
         <nav className="w-full p-4 bg-tertiary fixed bottom-0 left-0 z-50">
-            <div className="flex navs-center justify-between">
+            <div className="flex justify-evenly">
                 <NavLink
                     to='/'
                     className={({ isActive }) => isActive ? 'active' : undefined}

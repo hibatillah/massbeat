@@ -12,7 +12,9 @@ const Program = () => {
         {id: 1, title: "Latihan", img: "https://source.unsplash.com/random/?trainer"},
         {id: 2, title: "Workout", img: "https://source.unsplash.com/random/?workout"},
         {id: 3, title: "Latihan", img: "https://source.unsplash.com/random/?trainer"},
-        {id: 4, title: "Workout", img: "https://source.unsplash.com/random/?workout"}
+        {id: 4, title: "Workout", img: "https://source.unsplash.com/random/?workout"},
+        {id: 5, title: "Workout", img: "https://source.unsplash.com/random/?workout"},
+        {id: 6, title: "Workout", img: "https://source.unsplash.com/random/?workout"}
     ]);
     const [programs, setPrograms] = useState([
         {id: 1, img: "https://source.unsplash.com/random/?people"},
@@ -25,7 +27,9 @@ const Program = () => {
         {id: 1, title: "Food", img: "https://source.unsplash.com/random/?food"},
         {id: 2, title: "Food", img: "https://source.unsplash.com/random/?drink"},
         {id: 3, title: "Food", img: "https://source.unsplash.com/random/?drink"},
-        {id: 4, title: "Food", img: "https://source.unsplash.com/random/?food"}
+        {id: 4, title: "Food", img: "https://source.unsplash.com/random/?food"},
+        {id: 5, title: "Food", img: "https://source.unsplash.com/random/?food"},
+        {id: 6, title: "Food", img: "https://source.unsplash.com/random/?food"}
     ]);
 
     // const dataTrainers = fetch('http://localhost:3001/trainers').then(res => res.json())
@@ -46,7 +50,7 @@ const Program = () => {
     
     return (
         <div className="program w-full overflow-hidden">
-            <div  className="pl-2">
+            <div  className="pl-4">
                 <PageTitle title="Program" />
             </div>
             {/* {loading && <Load />}
@@ -60,9 +64,9 @@ const Program = () => {
                         ))}
                     </div>
                 </div>
-                <div className="program">
+                <div className="program space-y-1">
                     <SectionTitle title="Program" />
-                    <div className="scroll-x snap-x scroll-pl-2">
+                    <div className="scroll-x snap-x scroll-pl-4">
                         {programs.map((program) => (
                             <ProgramCard key={program.id}
                                 title={program.title}
@@ -71,7 +75,7 @@ const Program = () => {
                             />
                         ))}
                     </div>
-                    <div className="scroll-x snap-x scroll-pl-2 -mt-5">
+                    <div className="scroll-x snap-x scroll-pl-4">
                         {programs.map((program) => (
                             <ProgramCard key={program.id}
                                 title={program.title}
@@ -82,7 +86,7 @@ const Program = () => {
                 </div>
                 <div className="food">
                     <SectionTitle title="Rekomendasi menu" />
-                    <div className="grid grid-cols-2 gap-2 px-2 py-1">
+                    <div className="grid grid-cols-2 gap-2 px-4 py-1">
                         {foods.map((food) => (
                             <MenuCard key={food.id}
                                 title={food.title}
@@ -92,11 +96,11 @@ const Program = () => {
                     </div>
                 </div>
             </div>
-            {!loading &&
-                <div className="px-2 mt-1">
+            {/* {!loading && */}
+                <div className="px-4 mt-1">
                     <AdsCard />
                 </div>
-            }
+            {/* } */}
         </div>
     )
 }

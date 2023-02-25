@@ -8,15 +8,17 @@ const Profile = () => {
     
     return (
         <div className="profile">
-            <PageTitle title="Profile" />
-            <div className="p-2 flex flex-col gap-y-1.5">
-                <div className="bg-secondary w-full h-32 px-4 py-3 rounded-lg flex flex-col justify-between">
+            <div className="pl-4">
+                <PageTitle title="Profile" />
+            </div>
+            <div className="px-4 py-2 flex flex-col gap-y-2 text-lg">
+                <div className="bg-secondary w-full h-36 px-4 py-3 rounded-lg flex flex-col justify-between">
                     <div className="w-full flex justify-between">
                         <div className="">
                             <p className="font-bold">Aidel Haikal Alatas</p>
                             <p className="text-slate-500 font semibold">21 Tahun</p>
                         </div>
-                        <div id="pp" className="w-12 h-12 rounded-full border border-primary overflow-hidden">
+                        <div id="pp" className="w-14 h-14 rounded-full border border-primary overflow-hidden">
                             <img src={pp} alt="profile" loading="eager" className="w-full h-full object-cover" />
                         </div>
                     </div>
@@ -31,18 +33,18 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-primary w-full h-12 rounded-lg px-4 flex justify-between items-center text-sm text-white font-semibold tracking-wide">
+                <div className="bg-primary w-full h-14 rounded-lg px-4 flex justify-between items-center text-white font-semibold tracking-wide">
                     <span>Berlangganan Sekarang!</span>
                     <CaretRightFill />
                 </div>
-                <div className="bg-tertiary text-sm w-full h-12 rounded-lg px-4 flex justify-between items-center text-white font-semibold tracking-wide">
+                <div className="bg-tertiary w-full h-14 rounded-lg px-4 flex justify-between items-center text-white font-semibold tracking-wide">
                     <span>Poin Anda</span>
                     <p className="font-bold">24 <span className="text-sm font-medium">poin</span></p>
                 </div>
             </div>
             {/* menu */}
-            <div className="p-2 divide-y divide-secondary">
-                <div className="w-full h-12 flex justify-between items-center px-4">
+            <div className="p-2 divide-y divide-secondary text-lg">
+                <div className="w-full h-14 flex justify-between items-center px-4">
                     <div className="flex gap-3 items-center text-tertiary">
                         <div className="w-5 h-6 grid place-items-center object-contain">
                             <TicketDetailed className="w-full h-full object-contain" />
@@ -51,7 +53,7 @@ const Profile = () => {
                     </div>
                     <CaretRightFill />
                 </div>
-                <div className="w-full h-12 flex justify-between items-center px-4">
+                <div className="w-full h-14 flex justify-between items-center px-4">
                     <div className="flex gap-3 items-center text-tertiary">
                         <div className="w-5 h-6 grid place-items-center object-contain">
                             <PersonCircle className="w-full h-full object-contain" />
@@ -60,7 +62,7 @@ const Profile = () => {
                     </div>
                     <CaretRightFill />
                 </div>
-                <div className="w-full h-12 flex justify-between items-center px-4">
+                <div className="w-full h-14 flex justify-between items-center px-4">
                     <div className="flex gap-3 items-center text-tertiary">
                         <div className="w-5 h-6 grid place-items-center object-contain">
                             <FileText className="w-full h-full object-contain" />
@@ -69,7 +71,7 @@ const Profile = () => {
                     </div>
                     <CaretRightFill />
                 </div>
-                <div className="w-full h-12 flex justify-between items-center px-4">
+                <div className="w-full h-14 flex justify-between items-center px-4">
                     <div className="flex gap-3 items-center text-tertiary">
                         <div className="w-5 h-6 grid place-items-center object-contain">
                             <BoxArrowRight className="w-full h-full object-contain" />

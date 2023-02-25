@@ -10,13 +10,13 @@ const ArticleCard = ({article}) => {
     
     return (
         <div onClick={() => toPage(article.id)} className="article-card select-none">
-            <div className="flex-none w-20">
+            <div className="flex-none w-28">
                 <img src={article.image} alt="profile" className="w-full h-full object-cover"/>
             </div>
             <div className="text-tertiary flex flex-col justify-center px-3">
-                <h1 className="text-sm font-semibold leading-[18px] line-clamp-2">{article.title}</h1>
-                <p className="text-xs">{article.source}</p>
-                <p className="text-xs">{article.date}</p>
+                <h1 className="text-lg font-semibold leading-tight line-clamp-2">{article.title}</h1>
+                <p className="text-sm">{article.source}</p>
+                <p className="text-sm">{article.date}</p>
             </div>
         </div>
     )
@@ -54,7 +54,7 @@ const MenuCard = (props) => {
 
 const AdsCard = (props) => {
     return (
-        <div className="w-full h-24 bg-primary rounded-md grid place-items-center">
+        <div className="w-full h-28 bg-primary rounded-md grid place-items-center">
             <span className="text-2xl text-white">Advertisment</span>
         </div>
     )
