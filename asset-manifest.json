@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/massbeat/static/css/main.ec04bf78.css",
-    "main.js": "/massbeat/static/js/main.ab22e1e3.js",
+    "main.css": "/massbeat/static/css/main.d5ec8d3f.css",
+    "main.js": "/massbeat/static/js/main.9e2e20d9.js",
     "static/media/team.jpg": "/massbeat/static/media/team.e675e91528a044349c33.jpg",
     "static/media/404.png": "/massbeat/static/media/404.210c577839a32e0065a0.png",
     "static/media/logo.png": "/massbeat/static/media/logo.c6ba296e08eab86ee346.png",
     "index.html": "/massbeat/index.html",
     "static/media/refresh.svg": "/massbeat/static/media/refresh.37ff5575acf5015cb4b64de996013517.svg",
-    "main.ec04bf78.css.map": "/massbeat/static/css/main.ec04bf78.css.map",
-    "main.ab22e1e3.js.map": "/massbeat/static/js/main.ab22e1e3.js.map"
+    "main.d5ec8d3f.css.map": "/massbeat/static/css/main.d5ec8d3f.css.map",
+    "main.9e2e20d9.js.map": "/massbeat/static/js/main.9e2e20d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec04bf78.css",
-    "static/js/main.ab22e1e3.js"
+    "static/css/main.d5ec8d3f.css",
+    "static/js/main.9e2e20d9.js"
   ]
 }
