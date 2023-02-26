@@ -1,15 +1,15 @@
 # MassBeat
 ## a workout app and trainer consultation
 
-refers to the transitional period of the covid 19 pandemic, where people realized the importance of living a healthy life so they started doing various sports activities and nutritious food to achieve a healthy lifestyle. 
-
-However, due to the lack of public knowledge of how to exercise properly and correctly and the lack of gyms due to the pandemic, we are trying to help the community about a healthy way of life by providing good and correct sports program services and access to fitness consultations with trainers, so that this project was built as workout application and trainer consultation "MassBeat".
+an application that provides sports and fitness coach consultation services, healthy food recommendations and communities to interact with each other in providing support for healthy living.
+on the basis of the needs of the Indonesian people after the covid 19 pandemic where people began to realize the importance of living healthy so they started doing various sports activities and eating healthy food to achieve a healthy lifestyle, but sports space was limited during the pandemic making it difficult for people to do sports activities properly from home and lack of application of local assistant coaches.
+This project was built to provide a solution for the Indonesian people to be able to exercise easily from home during a pandemic with an application based on the Indonesian language so that it makes it easier for the Indonesian people to understand the sports they are doing.
 
 ### Projects
 
-This project was built using the design thinking method by finding out the problems and needs of the community and then providing ideas as solutions to existing problems.
-
-In the early stages, this project will be built in web form using the React JS framework and styling using Tailwind CSS.
+In the early stages, this project built with :
+* React JS v18.2.0
+* Tailwind CSS v3.2.7
 
 [Click here to view the project](https://hibatillah.github.io/massbeat/)
 
