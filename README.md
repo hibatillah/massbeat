@@ -1,5 +1,5 @@
 # MassBeat
-### a workout app and trainer consultation
+## a workout app and trainer consultation
 
 an application that provides sports and fitness coach consultation services, healthy food recommendations and communities to interact with each other in providing support for healthy living.
 
