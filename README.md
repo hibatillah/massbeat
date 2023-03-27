@@ -17,5 +17,4 @@ In the early stages, this project built with:
 * React JS v18.2.0
 * Tailwind CSS v3.2.7
 
-<br>
 MassBeat Developer - [Hibatillah](https://github.com/hibatillah)
