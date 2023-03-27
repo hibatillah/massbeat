@@ -9,9 +9,8 @@ This project was built to provide a solution for the Indonesian people to be abl
 
 ## About Projects
 
-Projects are created using the Design Thinking method by knowing the problems and needs of consumers, then generating ideas for solving existing problems. The following is a [summary of MassBeat project](https://www.behance.net/gallery/162029955/MassBeat-Aplikasi-Workout-Dan-Konsultasi-Trainer). The project will first do an interface design using figma, along with a preview of the project design:<br>
-[Design MassBeat Mobile](https://www.figma.com/proto/5jYtHgzCiSNgocCWvUKgCx/MassBeat?node-id=1-2&scaling=scale-down&starting-point-node-id=603%3A31600&show-proto-sidebar=1) <br>
-[Design MassBeat Desktop](https://www.figma.com/proto/5jYtHgzCiSNgocCWvUKgCx/MassBeat?node-id=1-16&scaling=scale-down&starting-point-node-id=603%3A56655&show-proto-sidebar=1)
+Projects are created using the Design Thinking method by knowing the problems and needs of consumers, then generating ideas for solving existing problems. The following is a [summary of MassBeat project](https://www.behance.net/gallery/162029955/MassBeat-Aplikasi-Workout-Dan-Konsultasi-Trainer). The project will first do an interface design using figma, along with a preview of the project design:<br> 
+[Design MassBeat Mobile](https://www.figma.com/proto/5jYtHgzCiSNgocCWvUKgCx/MassBeat?node-id=1-2&scaling=scale-down&starting-point-node-id=603%3A31600&show-proto-sidebar=1).<br> [Design MassBeat Desktop](https://www.figma.com/proto/5jYtHgzCiSNgocCWvUKgCx/MassBeat?node-id=1-16&scaling=scale-down&starting-point-node-id=603%3A56655&show-proto-sidebar=1).
 
 **Project is under development**, [Click here to view the project](https://hibatillah.github.io/massbeat/). <br />
 In the early stages, this project built with:
